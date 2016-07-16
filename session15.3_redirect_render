@@ -1,0 +1,13 @@
+Problem Statement:  List out the Rendering and Redirect methods in Controller. 
+
+Render types are:
+ render :text => “Welcome to Rails” 
+ render :action => “show_posts” 
+ render :partial => “side_bar” 
+ render :xml => xml  
+
+
+Redirect types are 
+redirect_to :home 
+redirect_to :controller => “blog”, :action => ”list” 
+
